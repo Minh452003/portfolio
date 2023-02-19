@@ -19,7 +19,7 @@ const Nav = () => {
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="imgs/avatar.jpg" alt="" class="brand-img">
+                    <img src="https://res.cloudinary.com/dkvghcobl/image/upload/v1676792388/ECMA/cgevzpzpo1esjgieg24i.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">John Doe</h5>
                         <div class="brand-subtitle">Web Designer | Developer</div>
