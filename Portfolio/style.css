@@ -12762,6 +12762,9 @@ pre .code {
   -ms-flex-align: center;
   align-items: center;
   padding: 40px 0;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+
 }
 
 @media (max-width: 991.98px) {

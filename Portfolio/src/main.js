@@ -8,11 +8,17 @@ import projectDetail from "./pages/projectDetail";
 import projectsEdit from "./pages/admin/projects-edit";
 import login from "./pages/Sign/login";
 import signup from "./pages/Sign/signup";
+import categories from "./pages/admin/categories";
+import CategoriesAdd from "./pages/admin/CategoriesAdd";
+import CategoriesEdit from "./pages/admin/CategoriesEdit";
 
 const app = document.querySelector("#app");
 router.on("/", () => render(homePage, app));
 router.on("/project/:id", (params) => render(() => projectDetail(params), app));
 router.on("/admin/projects", () => render(projectsAdmin, app));
+router.on("/admin/categories", () => render(categories, app));
+router.on("/admin/categories/add", () => render(CategoriesAdd, app));
+router.on("/admin/categories/:id/edit", ({ data }) => render(() => CategoriesEdit(data), app));
 router.on("/admin/projects/add", () => render(projectsAdd, app));
 router.on("/admin/projects/:id/edit", ({ data }) => render(() => projectsEdit(data), app));
 router.on("/Sign/login", () => render(login, app));

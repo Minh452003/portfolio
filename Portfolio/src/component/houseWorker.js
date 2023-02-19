@@ -9,7 +9,7 @@ const houseWorker = () => {
                         <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                     </div>
                     <div class="col-7 text-left py-3">
-                        <h1 class="text-danger font-weight-bold font40">500</h1>
+                        <h1 class="text-danger font-weight-bold font40">300</h1>
                         <p class="text-light mb-1">Hours Worked</p>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const houseWorker = () => {
                         <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                     </div>
                     <div class="col-7 text-left py-3">
-                        <h1 class="text-danger font-weight-bold font40">50K</h1>
+                        <h1 class="text-danger font-weight-bold font40">4</h1>
                         <p class="text-light mb-1">Project Finished</p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const houseWorker = () => {
                         <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
                     </div>
                     <div class="col-7 text-left py-3">
-                        <h1 class="text-danger font-weight-bold font40">200K</h1>
+                        <h1 class="text-danger font-weight-bold font40">20</h1>
                         <p class="text-light mb-1">Happy Clients</p>
                     </div>
                 </div>

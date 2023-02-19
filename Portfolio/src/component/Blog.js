@@ -3,7 +3,7 @@ const BlogComponent = () => {
     return `
     <section class="section" id="blog">
     <div class="container">
-        <h2 class="mb-5">Bài  <span class="text-danger">Viết</span></h2>
+        <h2 class="mb-5">LATEST <span class="text-danger">NEWS</span></h2>
         <div class="row">
             <div class="blog-card">
                 <div class="img-holder">

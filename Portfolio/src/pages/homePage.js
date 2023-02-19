@@ -44,7 +44,7 @@ const homePage = () => {
 
     <div class="container-fluid tm-container-content tm-mt-60" id="projects">
     <div class="row mb-4">
-    <h2 class="mb-5 pb-4"><span class="text-danger">Sản Phẩm</span> Của Tôi</h2>
+    <h2 class="mb-5 pb-4"><span class="text-danger">MY</span> PROJECTS</h2>
     ${Category({ categories, onClick: onHandleClick })}
     </div>
     <div class="row tm-mb-90 tm-gallery">

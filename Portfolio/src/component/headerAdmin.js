@@ -12,10 +12,10 @@ const headerAdmin = () => {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#/admin/projects">Thêm dự án</a>
+          <a class="nav-link" href="/admin/projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ">Disabled</a>
+          <a class="nav-link " href="/admin/categories">Categories</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
