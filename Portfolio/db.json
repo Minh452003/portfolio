@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "Minhpqph21199@fpt.edu.vn",
+      "password": "123456",
+      "username": "Minh"
+    },
+    {
+      "email": "minhpqph21199@fpt.edu.vn",
+      "password": "123456",
+      "username": "Phùng Quang Minh",
+      "id": 2
+    },
+    {
+      "email": "phungquangminh342003@gmail.com",
+      "password": "12345",
+      "username": "Phùng Quang Minh",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "duan": "Dự án mẫu",
+      "mota": "dự án được thực hiện thông qua hướng dẫn",
+      "tacgia": "Minh",
+      "avatar": "https://haycafe.vn/wp-content/uploads/2022/02/Hinh-anh-trai-xau-nhat-Viet-Nam.jpg",
+      "linkgit": "https://github.com/Minh452003/WEB501-ECMAScript",
+      "linkpreview": "...",
+      "thoigian": "30 ",
+      "Feedback": "json-server",
+      "technology": "json-server",
+      "categoryId": 1
+    },
+    {
+      "duan": "Dự án 1",
+      "tacgia": "Duy",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676789331/ECMA/lnfdyg7qkofmntsz80ts.jpg"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "a",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": 1,
+      "mota": "minh",
+      "id": 2
+    },
+    {
+      "duan": "Dự án 2",
+      "tacgia": "Văn",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676791887/ECMA/zbiyrw1vsdioik32ettp.jpg"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "a",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": 1,
+      "mota": "Văn",
+      "id": 3
+    },
+    {
+      "duan": "Dự án 3",
+      "tacgia": "Duy nguu",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676792388/ECMA/cgevzpzpo1esjgieg24i.jpg"
+      ],
+      "linkgit": "a",
+      "linkpreview": "a",
+      "thoigian": "a",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": 2,
+      "mota": "m",
+      "id": 4
+    },
+    {
+      "duan": "Dự án 4",
+      "tacgia": "Nam",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676792767/ECMA/tfnrl0uduwo79xcb1jnn.jpg"
+      ],
+      "linkgit": "a",
+      "linkpreview": "a",
+      "thoigian": "a",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": 2,
+      "mota": "minh",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "HTML/CSS"
+    },
+    {
+      "id": 2,
+      "name": "Javascript"
+    }
+  ]
+}
