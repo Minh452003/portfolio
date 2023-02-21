@@ -8,12 +8,12 @@ const ContactCpn = () => {
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="">
+                        <form>
                             <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
+                                <input id="fullname" class="form-control" type="text" placeholder="Name *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input id="email" onclick="Loi() class="form-control" type="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
@@ -32,7 +32,7 @@ const ContactCpn = () => {
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">0367233265</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -40,7 +40,7 @@ const ContactCpn = () => {
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Ngõ 35,Lê Đức Thọ,Nam Từ Liêm,hà Nội</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -48,7 +48,7 @@ const ContactCpn = () => {
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">Phungquangminh342003@gmailcom</span></h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">

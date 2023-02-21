@@ -15,8 +15,8 @@ const Projects = ({ projects }) => {
             </figcaption>                    
         </figure>
         <div class="d-flex justify-content-between tm-text-gray">
-            <span class="tm-text-gray-light">${project.technology}</span>
-            <span>${project.thoigian} ngày</span>
+            <span class="tm-text-gray-light"><a class="btn btn-success" style="list-style: none;" href="${project.linkpreview}">Xem Preview</a></span>
+            <span><a href="" style="list-style: none">${project.technology}</a></span>
         </div>
     </div>
         `;

@@ -29,7 +29,7 @@ const projectsAdd = () => {
         thoigian: Date.value,
         Feedback: FeedBack.value,
         technology: Technology.value,
-        categoryId: Category.value,
+        categoryId: Number(Category.value),
         mota: Description.value
       };
       axios.post('http://localhost:3000/projects', formData).then(() => router.navigate("/admin/projects"));
@@ -122,4 +122,4 @@ const projectsAdd = () => {
 
 }
 
-export default projectsAdd
+export default projectsAdd;

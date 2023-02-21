@@ -520,8 +520,12 @@ mark,
 
 .tm-gallery .img-fluid {
   width: 100%;
-  height: 250px;
+  height: 230px;
   object-fit: cover;
+}
+
+.img2 {
+  width: 100%;
 }
 
 .img-fluid1 {

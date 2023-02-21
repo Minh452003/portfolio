@@ -1,22 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "Minhpqph21199@fpt.edu.vn",
-      "password": "123456",
-      "username": "Minh"
-    },
-    {
-      "email": "minhpqph21199@fpt.edu.vn",
-      "password": "123456",
+      "email": "minh@gmail.com",
+      "password": "$2a$10$ymQM28KlWFftE9TwqmkNWODOJJVoSWE9ORiKsF10amStd6qOkKJ6q",
       "username": "Phùng Quang Minh",
-      "id": 2
-    },
-    {
-      "email": "phungquangminh342003@gmail.com",
-      "password": "12345",
-      "username": "Phùng Quang Minh",
-      "id": 3
+      "id": 1
     }
   ],
   "projects": [
@@ -29,8 +17,8 @@
       "linkgit": "https://github.com/Minh452003/WEB501-ECMAScript",
       "linkpreview": "...",
       "thoigian": "30 ",
-      "Feedback": "json-server",
-      "technology": "json-server",
+      "Feedback": "200",
+      "technology": "HTML/CSS/PHP",
       "categoryId": 1
     },
     {
@@ -42,8 +30,8 @@
       "linkgit": "https://github.com/hiepfre3101/food_lum",
       "linkpreview": "a",
       "thoigian": "30",
-      "Feedback": "a",
-      "technology": "a",
+      "Feedback": "300",
+      "technology": "HTML/CSS/JS/PHP",
       "categoryId": 1,
       "mota": "minh",
       "id": 2
@@ -57,8 +45,8 @@
       "linkgit": "https://github.com/hiepfre3101/food_lum",
       "linkpreview": "a",
       "thoigian": "30",
-      "Feedback": "a",
-      "technology": "a",
+      "Feedback": "100",
+      "technology": "HTML/CSS/JS",
       "categoryId": 1,
       "mota": "Văn",
       "id": 3
@@ -71,9 +59,9 @@
       ],
       "linkgit": "a",
       "linkpreview": "a",
-      "thoigian": "a",
-      "Feedback": "a",
-      "technology": "a",
+      "thoigian": "40",
+      "Feedback": "300",
+      "technology": "HTML/CSS/JS",
       "categoryId": 2,
       "mota": "m",
       "id": 4
@@ -86,12 +74,42 @@
       ],
       "linkgit": "a",
       "linkpreview": "a",
-      "thoigian": "a",
-      "Feedback": "a",
-      "technology": "a",
+      "thoigian": "20",
+      "Feedback": "150",
+      "technology": "HTML/CSS/JS",
       "categoryId": 2,
       "mota": "minh",
       "id": 5
+    },
+    {
+      "duan": "Dự án 3",
+      "tacgia": "Duy",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676879351/ECMA/iinokh1j7l4hja1pya5b.jpg"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "a",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": "2",
+      "mota": "a",
+      "id": 6
+    },
+    {
+      "duan": "Dự án 3",
+      "tacgia": "Duy",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676879472/ECMA/foixos4j0oa0usnptb03.jpg"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "a",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "a",
+      "categoryId": 2,
+      "mota": "a",
+      "id": 7
     }
   ],
   "categories": [
@@ -106,6 +124,35 @@
     {
       "id": 3,
       "name": "SQL/PHP"
+    }
+  ],
+  "posts": [
+    {
+      "id": 4,
+      "title": "Portfolio là tổng hợp những dự án ",
+      "author": "Minh",
+      "image": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676886406/Post/kbxjax9tqigygap7kqlh.jpg"
+      ],
+      "description": "Điện thoại OPPO Reno7 Z 5G có độ mỏng vô cùng ấn tượng là 7,49mm và trọng lượng chỉ 170g"
+    },
+    {
+      "title": "Portfolio là tổng hợp những dự án nổi bật",
+      "author": "Minh",
+      "image": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676886347/Post/zn9ydvuzfizqlb1fmx20.jpg"
+      ],
+      "description": "Điện thoại OPPO Reno7 Z 5G có độ mỏng vô cùng ấn tượng là 7,49mm và trọng lượng chỉ 170g",
+      "id": 5
+    },
+    {
+      "title": "Portfolio là tổng hợp những dự án nổi bật",
+      "author": "Minh",
+      "image": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676886384/Post/mfuilqj5queif6ghe9io.jpg"
+      ],
+      "description": "Điện thoại OPPO Reno7 Z 5G có độ mỏng vô cùng ấn tượng là 7,49mm và trọng lượng chỉ 170g",
+      "id": 6
     }
   ]
 }
