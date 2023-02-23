@@ -5,111 +5,104 @@
       "password": "$2a$10$ymQM28KlWFftE9TwqmkNWODOJJVoSWE9ORiKsF10amStd6qOkKJ6q",
       "username": "Phùng Quang Minh",
       "id": 1
+    },
+    {
+      "email": "minhpqph21199@fpt.edu.vn",
+      "password": "$2a$10$lJffom0kchVLZXtlN5Qr6eaAk1Dld6idKZIkBVD7In0vdWculungy",
+      "username": "Minh",
+      "id": 2
     }
   ],
   "projects": [
     {
-      "id": 1,
-      "duan": "Dự án mẫu",
-      "mota": "dự án được thực hiện thông qua hướng dẫn",
-      "tacgia": "Minh",
-      "avatar": "https://haycafe.vn/wp-content/uploads/2022/02/Hinh-anh-trai-xau-nhat-Viet-Nam.jpg",
-      "linkgit": "https://github.com/Minh452003/WEB501-ECMAScript",
-      "linkpreview": "...",
-      "thoigian": "30 ",
-      "Feedback": "200",
-      "technology": "HTML/CSS/PHP",
-      "categoryId": 1
+      "duan": "Dự án 2",
+      "tacgia": "Nam",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677137881/ECMA/tex5azxhzpevhfxx5m8f.jpg"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "HTML/CSS",
+      "categoryId": 1,
+      "mota": "a",
+      "id": 9
     },
     {
       "duan": "Dự án 1",
       "tacgia": "Duy",
       "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676789331/ECMA/lnfdyg7qkofmntsz80ts.jpg"
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677138007/ECMA/rgd7lq2b2nth4xdqcgzn.jpg"
       ],
       "linkgit": "https://github.com/hiepfre3101/food_lum",
-      "linkpreview": "a",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
       "thoigian": "30",
-      "Feedback": "300",
-      "technology": "HTML/CSS/JS/PHP",
+      "Feedback": "",
+      "technology": "HTML/CSS",
       "categoryId": 1,
-      "mota": "minh",
-      "id": 2
+      "mota": "a",
+      "id": 10
     },
     {
       "duan": "Dự án 2",
-      "tacgia": "Văn",
-      "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676791887/ECMA/zbiyrw1vsdioik32ettp.jpg"
-      ],
-      "linkgit": "https://github.com/hiepfre3101/food_lum",
-      "linkpreview": "a",
-      "thoigian": "30",
-      "Feedback": "100",
-      "technology": "HTML/CSS/JS",
-      "categoryId": 1,
-      "mota": "Văn",
-      "id": 3
-    },
-    {
-      "duan": "Dự án 3",
-      "tacgia": "Duy nguu",
-      "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676792388/ECMA/cgevzpzpo1esjgieg24i.jpg"
-      ],
-      "linkgit": "a",
-      "linkpreview": "a",
-      "thoigian": "40",
-      "Feedback": "300",
-      "technology": "HTML/CSS/JS",
-      "categoryId": 2,
-      "mota": "m",
-      "id": 4
-    },
-    {
-      "duan": "Dự án 4",
       "tacgia": "Nam",
       "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676792767/ECMA/tfnrl0uduwo79xcb1jnn.jpg"
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677138035/ECMA/xes1m4j9cldbgkq2flpw.jpg"
       ],
-      "linkgit": "a",
-      "linkpreview": "a",
-      "thoigian": "20",
-      "Feedback": "150",
-      "technology": "HTML/CSS/JS",
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "HTML/CSS",
       "categoryId": 2,
-      "mota": "minh",
-      "id": 5
+      "mota": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!",
+      "id": 11
     },
     {
       "duan": "Dự án 3",
-      "tacgia": "Duy",
+      "tacgia": "Văn",
       "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676879351/ECMA/iinokh1j7l4hja1pya5b.jpg"
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677138064/ECMA/wq1z1cdlwqtp7c2y0lxv.jpg"
       ],
       "linkgit": "https://github.com/hiepfre3101/food_lum",
-      "linkpreview": "a",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
       "thoigian": "30",
       "Feedback": "a",
-      "technology": "a",
-      "categoryId": "2",
-      "mota": "a",
-      "id": 6
+      "technology": "HTML/CSS",
+      "categoryId": 1,
+      "mota": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!",
+      "id": 12
     },
     {
-      "duan": "Dự án 3",
-      "tacgia": "Duy",
+      "duan": "Dự án mẫu",
+      "tacgia": "Minh",
       "avatar": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676879472/ECMA/foixos4j0oa0usnptb03.jpg"
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677138099/ECMA/rkaymyw4xf2m1s3chqw1.jpg"
       ],
       "linkgit": "https://github.com/hiepfre3101/food_lum",
-      "linkpreview": "a",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
       "thoigian": "30",
       "Feedback": "a",
-      "technology": "a",
+      "technology": "HTML/CSS",
       "categoryId": 2,
-      "mota": "a",
-      "id": 7
+      "mota": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!",
+      "id": 13
+    },
+    {
+      "duan": "Dự án mẫu 1",
+      "tacgia": "Minh",
+      "avatar": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677138126/ECMA/bimobwo2u0ldc4byvg79.png"
+      ],
+      "linkgit": "https://github.com/hiepfre3101/food_lum",
+      "linkpreview": "https://github.com/hiepfre3101/food_lum",
+      "thoigian": "30",
+      "Feedback": "a",
+      "technology": "HTML/CSS",
+      "categoryId": 1,
+      "mota": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!",
+      "id": 14
     }
   ],
   "categories": [
@@ -129,11 +122,9 @@
   "posts": [
     {
       "id": 4,
-      "title": "Portfolio là tổng hợp những dự án ",
+      "title": "Portfolio là tổng hợp những dự án .",
       "author": "Minh",
-      "image": [
-        "https://res.cloudinary.com/dkvghcobl/image/upload/v1676886406/Post/kbxjax9tqigygap7kqlh.jpg"
-      ],
+      "image": "https://res.cloudinary.com/dkvghcobl/image/upload/v1677137013/Post/ntxblhbpmby653abouqj.jpg",
       "description": "Điện thoại OPPO Reno7 Z 5G có độ mỏng vô cùng ấn tượng là 7,49mm và trọng lượng chỉ 170g"
     },
     {
@@ -153,6 +144,94 @@
       ],
       "description": "Điện thoại OPPO Reno7 Z 5G có độ mỏng vô cùng ấn tượng là 7,49mm và trọng lượng chỉ 170g",
       "id": 6
+    },
+    {
+      "title": "a",
+      "author": "Minh",
+      "image": [
+        "https://res.cloudinary.com/dkvghcobl/image/upload/v1677137035/Post/wrm8vosqx7umrbo2g27w.jpg"
+      ],
+      "description": "iPhone 11 - siêu phẩm được mong chờ nhất năm 2019 của Apple chuẩn bị ra mắt. Với những cải tiến vượt trội, phiên bản iPhone mới nhất hứa hẹn sẽ làm bùng nổ thị trường công nghệ.",
+      "id": 7
+    }
+  ],
+  "Infomation": [
+    {
+      "id": 1,
+      "title": "A web design/development student in our lovely Earth .",
+      "name": "Quang Minh",
+      "birtday": "04/05/2003",
+      "email": "Phungquangminh342003@gmail.com",
+      "phone": "0367233265",
+      "address": "Lê Đức Thọ.Nam Từ Liêm,hà Nội",
+      "description": "I am currently a 5th semester student at FPT College, with the goal of becoming a Front End Developer",
+      "exName": "Web Development",
+      "desName": "Basic website design .",
+      "exName1": "Web Development.",
+      "desName1": "Basic website design ."
+    }
+  ],
+  "Resume": [
+    {
+      "id": 1,
+      "timeLine": "2023 - Present",
+      "Title": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+    },
+    {
+      "timeLine": "2022-2023",
+      "Title": "Design My SQL and PHP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.",
+      "id": 2
+    },
+    {
+      "timeLine": "2020-2021",
+      "Title": "Design My SQL and PHP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.",
+      "id": 3
+    },
+    {
+      "timeLine": "2022 - Present",
+      "Title": "5th term students",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "timeLine": "2020 - 2021",
+      "Title": "High School Degree",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!."
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "title": "Basic PHP website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia."
+    },
+    {
+      "id": 2,
+      "title": "Basic JS website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia."
+    },
+    {
+      "title": "Basic HTML/CSS website design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.",
+      "id": 3
+    },
+    {
+      "title": "SEO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.",
+      "id": 4
+    }
+  ],
+  "worked": [
+    {
+      "id": 1,
+      "housework": "200",
+      "finish": "100",
+      "client": "11",
+      "coffee": "10"
     }
   ]
 }

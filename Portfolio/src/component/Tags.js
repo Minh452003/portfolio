@@ -1,0 +1,27 @@
+// import { useEffect, useState } from "@/lib";
+// import axios from "axios"
+// const Tags = () => {
+//     useEffect(() => {
+//         axios.get(`http://localhost:3000/projects?technology=HTML`).then(({ data }) => setProjects(data))
+//     }, []);
+
+//     return `
+//     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+//         <figure class="effect-ming tm-video-item">
+//             <img src="${projects.avatar}" alt="Image" class="img-fluid">
+//             <figcaption class="d-flex align-items-center justify-content-center">
+//                 <h2>${projects.duan}</h2>
+//                 <a href="/#/project/${projects.id}"></a>
+//             </figcaption>                    
+//         </figure>
+//         <div class="d-flex justify-content-between tm-text-gray">
+//             <span class="tm-text-gray-light"><a class="btn btn-success" style="list-style: none;" href="${project.linkpreview}">Xem Preview</a></span>
+//             <span><a href="" style="list-style: none">${project.technology}</a></span>
+//         </div>
+//     </div>
+  
+//   `;
+
+// }
+
+// export default Tags

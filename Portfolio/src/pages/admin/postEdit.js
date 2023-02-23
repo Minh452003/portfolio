@@ -2,57 +2,60 @@ import headerAdmin from "@/component/headerAdmin";
 import { router, useEffect, useState } from "@/lib";
 import axios from "axios";
 const postEdit = ({ id }) => {
-    const [posts, setPost] = useState([]);
-    useEffect(() => {
-        axios.get(`http://localhost:3000/posts/${id}`).then(({ data }) => setPost(data));
-    }, []);
+  const [posts, setPost] = useState([]);
+  useEffect(() => {
+    axios.get(`http://localhost:3000/posts/${id}`).then(({ data }) => setPost(data));
+  }, []);
 
-    useEffect(() => {
-        const form = document.querySelector("#form-add");
-        const Title = document.querySelector("#title");
-        const Author = document.querySelector("#author");
-        const Image = document.querySelector("#images");
-        const Description = document.querySelector("#description");
+  useEffect(() => {
+    const form = document.querySelector("#form-add");
+    const Title = document.querySelector("#title");
+    const Author = document.querySelector("#author");
+    const Image = document.querySelector("#images");
+    const imgPreview = document.getElementById("img_preview");
+    const Description = document.querySelector("#description");
 
-        form.addEventListener("submit", async function (e) {
-            e.preventDefault();
-            const urls = await uploadFiles(Image.files);
-            const formData = {
-                id: id,
-                title: Title.value,
-                author: Author.value,
-                image: urls,
-                description: Description.value
-            };
-            axios.put(`http://localhost:3000/posts/${id}`, formData).then(() => router.navigate("/admin/postAdmin"));
-        });
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const link = await uploadFiles(Image.files);
+      const formData = {
+        id: id,
+        title: Title.value,
+        author: Author.value,
+        image: link ? link : imgPreview.src,
+        description: Description.value
+      };
+      axios.put(`http://localhost:3000/posts/${id}`, formData).then(() => router.navigate("/admin/postAdmin"));
     });
-    const uploadFiles = async (files) => {
-        if (files) {
-            const CLOUD_NAME = "dkvghcobl";
-            const PRESET_NAME = "upload-portfolio";
-            const FOLDER_NAME = "Post";
-            const urls = [];
-            const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
-            const formData = new FormData();
-            formData.append("upload_preset", PRESET_NAME);
-            formData.append("folder", FOLDER_NAME);
+  });
+  const uploadFiles = async (files) => {
+    if (files) {
+      const CLOUD_NAME = "dkvghcobl";
+      const PRESET_NAME = "upload-portfolio";
+      const FOLDER_NAME = "Post";
+      let link = "";
+      const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
+      const formData = new FormData();
+      formData.append("upload_preset", PRESET_NAME);
+      formData.append("folder", FOLDER_NAME);
 
-            for (const file of files) {
-                formData.append("file", file);
-                const response = await axios.post(api, formData, {
-                    headers: {
-                        "Content-Type": "multipart/form-data",
-                    },
-                });
-                urls.push(response.data.secure_url);
-            }
-            return urls;
-        }
+      for (const file of files) {
+        formData.append("file", file);
+        const response = await axios.post(api, formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+        // urls.push(response.data.secure_url);
+        link = response.data.secure_url;
+
+      }
+      return link;
     }
+  }
 
 
-    return `
+  return `
     ${headerAdmin()}
     <div class="container">
       <div class="row">
@@ -72,7 +75,7 @@ const postEdit = ({ id }) => {
     <div class="mb-3">
       <label class="form-label">Ảnh</label>
       <input type="file" class="form-control" id="images">
-      <img src="${posts.image}"  width="50">
+      <img src="${posts.image}"  width="50" id="img_preview">
     </div>
     <div class="mb-3">
       <label class="form-label">Mô Tả</label>

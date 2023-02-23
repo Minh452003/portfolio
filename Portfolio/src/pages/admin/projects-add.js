@@ -16,7 +16,6 @@ const projectsAdd = () => {
     const Category = document.querySelector("#category");
     const Description = document.querySelector("#mota");
 
-
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
       const urls = await uploadFiles(avatar.files);

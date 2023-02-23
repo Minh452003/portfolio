@@ -19,6 +19,7 @@ const signup = () => {
                 username: fullname.value
             };
             axios.post('http://localhost:3000/users', formData).then(() => router.navigate("/Sign/login"));
+            localStorage.setItem("users");
         });
     });
 

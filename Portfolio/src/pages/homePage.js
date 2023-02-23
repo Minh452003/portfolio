@@ -26,7 +26,6 @@ const homePage = () => {
             .then((response) => response.json())
             .then(({ projects }) => setProjects(projects));
     };
-
     return `
     <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
     ${Header()}

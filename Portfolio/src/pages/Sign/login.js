@@ -4,6 +4,7 @@ import Nav from "@/component/Nav";
 import axios from "axios";
 import { router, useEffect } from "@/lib";
 const login = () => {
+    const users = JSON.parse(localStorage.getItem('users') || []);
     useEffect(() => {
         const form = document.querySelector("#form-add");
         const email = document.querySelector("#email");
@@ -17,6 +18,8 @@ const login = () => {
                 password: password.value,
             };
             axios.post('http://localhost:3000/login', formData).then(() => router.navigate("/admin/projects"));
+            users.push(formData);
+            localStorage.setItem('users', JSON.stringify(users));
         });
     });
 

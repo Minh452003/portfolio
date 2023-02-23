@@ -20,15 +20,14 @@ const projectsEdit = ({ id }) => {
     const Technology = document.getElementById("technology");
     const Category = document.getElementById("category");
     const Description = document.getElementById("mota");
-
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
-      const urls = await uploadFiles(avatar.files);
+      const link = await uploadFiles(avatar.files);
       const formData = {
         id: id,
         duan: nameProject.value,
         tacgia: author.value,
-        avatar: urls,
+        avatar: link ? link : imgPreview.src,
         linkgit: linkGit.value,
         linkpreview: linkPreview.value,
         thoigian: Date.value,
@@ -46,7 +45,9 @@ const projectsEdit = ({ id }) => {
       const CLOUD_NAME = "dkvghcobl";
       const PRESET_NAME = "upload-portfolio";
       const FOLDER_NAME = "ECMA";
-      const urls = [];
+      // const urls = [];
+      let link = "";
+
       const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload
           `;
       const formData = new FormData();
@@ -60,9 +61,10 @@ const projectsEdit = ({ id }) => {
             "Content-Type": "multipart/form-data",
           },
         });
-        urls.push(response.data.secure_url);
+        // urls.push(response.data.secure_url);
+        link = response.data.secure_url;
       }
-      return urls;
+      return link;
     }
 
   };
@@ -88,8 +90,7 @@ const projectsEdit = ({ id }) => {
   <div class="mb-3">
     <label class="form-label">Ảnh đại diện</label>
     <input type="file" class="form-control" id="avatar">
-    <input type="hidden" id="img_preview" value="${projects.avatar}">
-    <img src="${projects.avatar}"  width="50">
+    <img src="${projects.avatar}" id="img_preview" width="50">
   </div>
   <div class="mb-3">
     <label class="form-label">Link Git</label>
